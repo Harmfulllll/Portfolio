@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary-color: #FFEDEF;
+  --secondary-color: #181532;
+  --color-bg1:  rgba(255, 130, 37, 1);
+  --color-bg2: rgba(0, 16, 82, 0.425);
+  --color1: 255, 131, 67;
+  --color2: 255, 238, 173;
+  --color3: 180, 214, 205;
+  --color4: 200, 50, 50;
+  --color5: 180, 180, 50;
+  --color-interactive: 246, 233, 107;
+  --circle-size: 70%;
+  --blending: hard-light;
+}

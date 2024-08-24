@@ -1,18 +1,29 @@
 nav{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
     background-color: var(--primary-color);
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 90px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     
     .left{
+      display: flex;
+      align-items: center;
+      h1{
         font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
-        font-size: 1.2rem;
-        cursor: pointer;
-        padding-left: 2vw;
+        font-weight: 600;
+        font-size: 2rem;
+        cursor: pointer; }
+      img{
+           padding-left: 2vw;
+            margin-right: 10px;
+          /*   padding-left: 2vw; */
+        }
     }
 
       .menu-container {

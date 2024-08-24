@@ -5,6 +5,9 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import About from './pages/About/About'
+import Contact from './pages/Contact/Contact'
+import Projects from './pages/Projects/Projects'
+import Skills from './pages/Skills/Skills'
 
 function App() {
   return (
@@ -13,12 +16,20 @@ function App() {
             <Navbar />
             <Hero />
         </section>
+        <section id='skills'>
+            <Skills />
+        </section>
+        <section id='projects'>
+            <Projects />
+        </section>
         <section 
          id='about'
         >
             <About />
         </section>
-        <section>Contact</section>
+        <section id='contact'>
+            <Contact />
+        </section>
     </>
   )
 }

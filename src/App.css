@@ -1,15 +1,17 @@
 html{
-  scroll-snap-type: y mandatory;
+/*   scroll-snap-type: y mandatory; */
   scroll-behavior: smooth;
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 section{
-  height: 100vh;
+  min-height: 100vh;
   scroll-snap-align: center;
   margin: 0;
   padding: 0;
+  border-bottom:1px solid rgba(0,0,0, 0.12);
 }
 #home{
   background-color: var(--primary-color);

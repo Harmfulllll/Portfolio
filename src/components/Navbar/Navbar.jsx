@@ -5,7 +5,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => setIsOpen(!isOpen);
-  const navItems = ["home", "about", "services", "contact"];
+  const navItems = ["home", "skills", "projects", "about", "contact"];
   
   const menuVariants = {
     hidden: { y: '-100%' },
@@ -51,11 +51,19 @@ function Navbar() {
     <>
     <nav>
        <div className="left">
+          <motion.img
+            className="logo"
+            initial={{y:-100}}
+            animate={{y:0}}
+            src="./logo.ico"
+            transition={{delay:0.3, type:'spring', stiffness:240}}
+          ></motion.img>
          <motion.h1
+            className="logo-text"
             initial={{y:-100}}
             animate={{y:0}}
             transition={{delay:0.3, type:'spring', stiffness:240}}
-         >Joy.dev</motion.h1>
+         >joy.dev</motion.h1>
        </div>
        <div className="menu-container">
       <motion.div
@@ -66,8 +74,8 @@ function Navbar() {
         style={{ zIndex: 1001 }}  
       >
         <motion.svg
-          width="50"
-          height="50"
+          width="40"
+          height="40"
           viewBox= "0 0 40 40"
           xmlns="http://www.w3.org/2000/svg"
         >

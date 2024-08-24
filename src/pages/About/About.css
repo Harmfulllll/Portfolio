@@ -51,6 +51,7 @@
                color: var(--secondary-color); 
                 font-size: 1.5rem;
                 font-family: 'inter', sans-serif;
+                font-weight: 600;
                 padding: 1vw 2vw 1vw 2vw;
                 transition: all 0.3s ease-in-out;
            &:hover{
@@ -59,7 +60,6 @@
                     transition: all 0.3s ease-in-out;
                 }  
             }
-            
         }
     
       

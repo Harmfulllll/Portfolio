@@ -1,17 +1,26 @@
 import React from "react";
 import "./About.css";
+import { motion } from "framer-motion";
 
 function About() {
   return (
     <div className="about">
         <div className="about-header">
-      <h1>Hey, My name is Tanvir Hassan Joy,<span> a dedicated learner<br/>
+      <motion.h1
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.2 }}
+      >Hey, My name is Tanvir Hassan Joy,<span> a dedicated learner<br/>
        and hopefully a future developer. I have recently completed my Bachelors in computer science.</span> 
-      </h1>
+      </motion.h1>
       </div>
-      <p>
+      <motion.p
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, delay: 0.3 }}
+      >
       As a computer science student, I always had a keen interest in programming and problem-solving. I have acquired decent theoretical knowledge from my university coursework. Initially, I tried my luck with competitive programming, but nowadays I am more into development. As I have already said that I consider myself to be a curious learner, right now I am trying to learn how to be a somewhat good developer. 
-      </p>
+      </motion.p>
      
      <div className="resume-div">
      <button className="resume-button">

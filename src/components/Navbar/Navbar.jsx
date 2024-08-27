@@ -51,19 +51,26 @@ function Navbar() {
     <>
     <nav>
        <div className="left">
+       <a href="
+          https://joy-portfolio-chi.vercel.app/
+         ">
           <motion.img
             className="logo"
             initial={{y:-100}}
             animate={{y:0}}
             src="./logo.ico"
             transition={{delay:0.3, type:'spring', stiffness:240}}
-          ></motion.img>
+          >
+          </motion.img>
+          </a>
          <motion.h1
             className="logo-text"
             initial={{y:-100}}
             animate={{y:0}}
             transition={{delay:0.3, type:'spring', stiffness:240}}
-         >joy.dev</motion.h1>
+         > <a href="
+          https://joy-portfolio-chi.vercel.app/
+         ">joy.dev</a></motion.h1>
        </div>
        <div className="menu-container">
       <motion.div

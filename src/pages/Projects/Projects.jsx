@@ -28,7 +28,7 @@ function Projects() {
                         title="Downwatch"
                         tags={["React", "Node", "Express", "MongoDB"]}
                         description="The application allows users to register and track the status of their websites in real-time. If a website goes down, the system automatically sends email notifications to alert users. "
-                        link="https://www.google.com"
+                        link="https://github.com/Harmfulllll/Down-watch"
                     />
                 </div>
                 <div className="card-data">
@@ -39,7 +39,7 @@ function Projects() {
                         description="
                         This is a simple web application that allows users to encrypt and decrypt messages using the Vignere cipher.
                         "
-                        link="https://www.google.com"
+                        link="https://github.com/Harmfulllll/Vigenere-Cipher"
                     />
                 </div>
 
@@ -51,7 +51,7 @@ function Projects() {
                         title="HolaChat"
                         tags={["React","Socket","Redux", "Node", "Express", "MongoDB"]}
                         description="This is a real time chat application that allows users to communicate with each other."
-                        link="https://www.google.com"
+                        link="https://github.com/Harmfulllll/holaChat"
                     />
                 </div>
                 <div className="card-data">
@@ -62,7 +62,7 @@ function Projects() {
                         description="
                         Backend for a simple expense tracker application that allows users to track their expenses.
                         "
-                        link="https://www.google.com"
+                        link="https://github.com/Harmfulllll/Expense-Tracker-Backend"
                     />
                 </div>
 

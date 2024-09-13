@@ -42,17 +42,6 @@ function Projects() {
                         link="https://github.com/Harmfulllll/Down-watch"
                     />
                 </div>
-                <div className="card-data">
-                    <Card
-                        image="./vignere.png"
-                        title="Vignere cipher"
-                        tags={["React"]}
-                        description="
-                        This is a simple web application that allows users to encrypt and decrypt messages using the Vignere cipher.
-                        "
-                        link="https://github.com/Harmfulllll/Vigenere-Cipher"
-                    />
-                </div>
 
             </div>
             <div className="card-container">
@@ -63,6 +52,18 @@ function Projects() {
                         tags={["React","Socket","Redux", "Node", "Express", "MongoDB"]}
                         description="This is a real time chat application that allows users to communicate with each other."
                         link="https://github.com/Harmfulllll/holaChat"
+                    />
+                </div>
+
+                <div className="card-data">
+                    <Card
+                        image="./vignere.png"
+                        title="Vignere cipher"
+                        tags={["React"]}
+                        description="
+                        This is a simple web application that allows users to encrypt and decrypt messages using the Vignere cipher.
+                        "
+                        link="https://github.com/Harmfulllll/Vigenere-Cipher"
                     />
                 </div>
 

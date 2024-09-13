@@ -22,6 +22,17 @@ function Projects() {
                 </motion.p>
             </motion.div>
             <div className="card-container">
+            <div className="card-data">
+                    <Card
+                        image="./pandamarks.png"
+                        title="PandaMarks"
+                        tags={['React', 'Shadcn', 'Redux', 'Node', 'Express', 'MongoDB']}
+                        description="
+                        Web application to streamline the way users save, organize, and retrieve their favorite websites
+                        "
+                        link="https://pandamarks-app.vercel.app/"
+                    />
+                </div>
                 <div className="card-data">
                     <Card
                         image="./downwatch.png"
@@ -52,17 +63,6 @@ function Projects() {
                         tags={["React","Socket","Redux", "Node", "Express", "MongoDB"]}
                         description="This is a real time chat application that allows users to communicate with each other."
                         link="https://github.com/Harmfulllll/holaChat"
-                    />
-                </div>
-                <div className="card-data">
-                    <Card
-                        image="./project.png"
-                        title="Expense Tracker"
-                        tags={['Node', 'Express', 'MongoDB']}
-                        description="
-                        Backend for a simple expense tracker application that allows users to track their expenses.
-                        "
-                        link="https://github.com/Harmfulllll/Expense-Tracker-Backend"
                     />
                 </div>
 
